@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Complexity Chronicles</title>
+<link>https://joelbyte.github.io/complexity-chronicles/</link>
+<atom:link href="https://joelbyte.github.io/complexity-chronicles/feed.xml" rel="self" type="application/rss+xml"/>
+<description>All the news that's fit to reduce</description>
+<language>en</language>
+<item>
+<title>No. 43: 4n! Gate Elimination Smashes Through</title>
+<link>https://joelbyte.github.io/complexity-chronicles/issues/2026-W43/</link>
+<guid isPermaLink="true">https://joelbyte.github.io/complexity-chronicles/issues/2026-W43/</guid>
+<pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
+<description>Mishra and Santhanam prove that every Boolean circuit over the full binary basis <span class="math">\(B_2\)</span> computing a certain explicit function in <span class="math">\(\mathrm{P}\)</span> needs at least <span class="math">\(4n-O(\log n)\)</span> gates, up from the <span class="math">\(3.5n-o(n)\)</span> in the paper's own earlier version.</description>
+</item>
+</channel>
+</rss>

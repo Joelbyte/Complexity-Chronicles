@@ -1,0 +1,14 @@
+[
+ {
+  "week": "2026-W43",
+  "issue_number": 43,
+  "date_line": "Monday 26 October 2026",
+  "week_range": "19–25 October 2026",
+  "date": "2026-10-26",
+  "headline": "4n! Gate Elimination Smashes Through",
+  "standfirst": "Mishra and Santhanam prove that every Boolean circuit over the full binary basis <span class=\"math\">\\(B_2\\)</span> computing a certain explicit function in <span class=\"math\">\\(\\mathrm{P}\\)</span> needs at least <span class=\"math\">\\(4n-O(\\log n)\\)</span> gates, up from the <span class=\"math\">\\(3.5n-o(n)\\)</span> in the paper's own earlier version.",
+  "n_papers": 61,
+  "pdf": "complexity-chronicles-2026-W43.pdf",
+  "rfc822": "Mon, 26 Oct 2026 08:00:00 +0000"
+ }
+]
