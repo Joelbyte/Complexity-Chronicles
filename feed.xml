@@ -7,6 +7,13 @@
 <description>All the news that's fit to reduce</description>
 <language>en</language>
 <item>
+<title>No. 44: ETH falls. Brute force keeps its job</title>
+<link>https://joelbyte.github.io/complexity-chronicles/issues/2026-W44/</link>
+<guid isPermaLink="true">https://joelbyte.github.io/complexity-chronicles/issues/2026-W44/</guid>
+<pubDate>Mon, 02 Nov 2026 08:00:00 +0000</pubDate>
+<description>Two analyses of the claimed October 2026 refutations of ETH find that the subexponential #3-SAT bounds certify no speed-up over brute force for any bounded-density input that could ever be written down, cut one algorithm's crossover point to about <span class="math">\(2^{420}\)</span> clauses at clause density one, and observe that the Sparse Max-3-SAT Hypothesis falls too; a third paper, an AI-assisted exposition, explains how the counting procedure works.</description>
+</item>
+<item>
 <title>No. 43: 4n! Gate Elimination Smashes Through</title>
 <link>https://joelbyte.github.io/complexity-chronicles/issues/2026-W43/</link>
 <guid isPermaLink="true">https://joelbyte.github.io/complexity-chronicles/issues/2026-W43/</guid>

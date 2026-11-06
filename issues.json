@@ -1,5 +1,17 @@
 [
  {
+  "week": "2026-W44",
+  "issue_number": 44,
+  "date_line": "Monday 2 November 2026",
+  "week_range": "26 October – 1 November 2026",
+  "date": "2026-11-02",
+  "headline": "ETH falls. Brute force keeps its job",
+  "standfirst": "Two analyses of the claimed October 2026 refutations of ETH find that the subexponential #3-SAT bounds certify no speed-up over brute force for any bounded-density input that could ever be written down, cut one algorithm's crossover point to about <span class=\"math\">\\(2^{420}\\)</span> clauses at clause density one, and observe that the Sparse Max-3-SAT Hypothesis falls too; a third paper, an AI-assisted exposition, explains how the counting procedure works.",
+  "n_papers": 85,
+  "pdf": "complexity-chronicles-2026-W44.pdf",
+  "rfc822": "Mon, 02 Nov 2026 08:00:00 +0000"
+ },
+ {
   "week": "2026-W43",
   "issue_number": 43,
   "date_line": "Monday 26 October 2026",
