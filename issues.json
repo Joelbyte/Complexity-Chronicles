@@ -1,5 +1,17 @@
 [
  {
+  "week": "2026-W45",
+  "issue_number": 45,
+  "date_line": "Monday 9 November 2026",
+  "week_range": "2–8 November 2026",
+  "date": "2026-11-09",
+  "headline": "The hyperclique conjecture falls",
+  "standfirst": "For every fixed <span class=\"math\">\\(k\\)</span> there is an <span class=\"math\">\\(\\varepsilon_k &gt; 0\\)</span> such that <span class=\"math\">\\(k\\)</span>-hypercliques in an <span class=\"math\">\\(n\\)</span>-vertex <span class=\"math\">\\((k-1)\\)</span>-uniform hypergraph can be counted in <span class=\"math\">\\(O(n^{k-\\varepsilon_k})\\)</span> time, unconditionally; as corollaries, Max-<span class=\"math\">\\(k\\)</span>SAT runs in <span class=\"math\">\\(2^{(1-\\varepsilon)n}\\cdot\\mathrm{poly}(m,n)\\)</span> time and length-<span class=\"math\">\\(k\\)</span> arithmetic progressions are detected in <span class=\"math\">\\(n^{2-\\varepsilon}\\)</span> time, with <span class=\"math\">\\(\\varepsilon\\)</span> depending on <span class=\"math\">\\(k\\)</span>.",
+  "n_papers": 132,
+  "pdf": "complexity-chronicles-2026-W45.pdf",
+  "rfc822": "Mon, 09 Nov 2026 08:00:00 +0000"
+ },
+ {
   "week": "2026-W44",
   "issue_number": 44,
   "date_line": "Monday 2 November 2026",

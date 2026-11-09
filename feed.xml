@@ -7,6 +7,13 @@
 <description>All the news that's fit to reduce</description>
 <language>en</language>
 <item>
+<title>No. 45: The hyperclique conjecture falls</title>
+<link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W45/</link>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W45/</guid>
+<pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+<description>For every fixed <span class="math">\(k\)</span> there is an <span class="math">\(\varepsilon_k &gt; 0\)</span> such that <span class="math">\(k\)</span>-hypercliques in an <span class="math">\(n\)</span>-vertex <span class="math">\((k-1)\)</span>-uniform hypergraph can be counted in <span class="math">\(O(n^{k-\varepsilon_k})\)</span> time, unconditionally; as corollaries, Max-<span class="math">\(k\)</span>SAT runs in <span class="math">\(2^{(1-\varepsilon)n}\cdot\mathrm{poly}(m,n)\)</span> time and length-<span class="math">\(k\)</span> arithmetic progressions are detected in <span class="math">\(n^{2-\varepsilon}\)</span> time, with <span class="math">\(\varepsilon\)</span> depending on <span class="math">\(k\)</span>.</description>
+</item>
+<item>
 <title>No. 44: ETH falls. Brute force keeps its job</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W44/</link>
 <guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W44/</guid>
