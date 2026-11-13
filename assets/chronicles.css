@@ -57,7 +57,7 @@ h3.subhead { font-family: var(--cond); font-weight: 700; font-size: 13px; letter
 .cols { column-gap: 26px; column-rule: 1px solid #E2C9A0; }
 .cols-3 { column-count: 3; }
 .cols-2 { column-count: 2; }
-.cols p { break-inside: avoid-column; }
+.cols p { break-inside: auto; orphans: 2; widows: 2; }
 .dc { float: left; font-family: var(--head); font-weight: 900; font-size: 3.4em; line-height: .82; padding: .06em .08em 0 0; color: var(--amber); }
 .items { margin: 0 0 .7em; padding-left: 1.2em; list-style: none; }
 .items li { margin: 0 0 3px; position: relative; }
@@ -116,9 +116,16 @@ a.ref, .ref { font-family: var(--mono); font-size: .78em; color: var(--greendark
 .briefs .brief { break-inside: avoid; margin: 0 0 9px; font-size: 13.5px; line-height: 1.45; text-align: left; hyphens: none; }
 .brief .t { font-family: var(--cond); font-weight: 700; font-size: 15px; }
 .brief .who { font-family: var(--cond); font-size: 13px; color: var(--mute); }
-.aihead { break-before: column; font-family: var(--cond); font-weight: 700; font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--greendark); margin: 12px 0 2px; }
-.ainote { font-family: var(--cond); font-size: 13px; color: var(--mute); text-align: left; margin-bottom: 8px; }
-.aibadge { font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em; text-transform: uppercase; color: #fff; background: var(--greendark); padding: 1px 4px; vertical-align: middle; }
+.repo { margin: 0 0 18px; }
+.repohead { font-family: var(--cond); font-weight: 700; font-size: 19px; border-top: 2px solid var(--amber); padding-top: 6px; margin: 10px 0 2px; }
+.repohead .n { font-family: var(--mono); font-size: 12px; color: var(--mute); font-weight: 400; margin-left: 8px; }
+.repodesc { font-family: var(--cond); font-size: 13.5px; color: var(--mute); text-align: left; margin: 0 0 8px; }
+.repostats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px 14px; background: var(--tint); border: 1px solid var(--tintline); padding: 8px 12px 6px; margin: 0 0 10px; }
+.repostats .stat .value { font-size: 21px; color: var(--amber); line-height: 1.15; }
+.repostats .stat .label { color: var(--ink); font-size: 10.5px; }
+.repodigest { border-left: 3px solid var(--greendark); padding: 2px 0 2px 12px; margin: 0 0 12px; font-family: var(--cond); font-size: 15px; line-height: 1.4; }
+.repodigest p { text-align: left; margin: 0 0 6px; }
+.repodigest .kv .k { font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; color: var(--greendark); margin-right: 6px; }
 
 /* ---------------------------------------------------------------- back page */
 .numbers { background: var(--deep); color: #fff; border-top: 3px solid var(--amber); margin-bottom: 12px; }
