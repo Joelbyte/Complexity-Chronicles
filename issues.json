@@ -7,7 +7,7 @@
   "date": "2026-11-16",
   "headline": "First hard instances for AC0[2]-Frege at every depth",
   "standfirst": "For every fixed <span class=\"math\">\\(d \\ge 2\\)</span>, explicit depth-<span class=\"math\">\\(d\\)</span> formulas need superpolynomial-size semantic depth-<span class=\"math\">\\(d\\)</span> <span class=\"math\">\\(AC^0[2]\\)</span>-Frege refutations. Semantic depth-3 and depth-4 polynomial calculus over <span class=\"math\">\\(\\mathbb{F}_2\\)</span> also receive exponential and superpolynomial lower bounds, which settles the Res(log) question for the weak pigeonhole principle.",
-  "n_papers": 67,
+  "n_papers": 75,
   "pdf": "complexity-chronicles-2026-W46.pdf",
   "rfc822": "Mon, 16 Nov 2026 08:00:00 +0000"
  },
