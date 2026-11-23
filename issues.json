@@ -5,9 +5,9 @@
   "date_line": "Monday 23 November 2026",
   "week_range": "16–22 November 2026",
   "date": "2026-11-23",
-  "headline": "NL equals UL",
-  "standfirst": "Hoza gives an explicit log-space generator of min-isolating vertex weights for layered digraphs; combined with Reinhardt and Allender (SICOMP 2000), this proves NL = UL unconditionally.",
-  "n_papers": 77,
+  "headline": "Riemann hypothesis proof passes Lean checks",
+  "standfirst": "Status confirmed: a proof of the Riemann hypothesis by Alpöge of Anthropic, working with Claude and released only as about 17 million lines of Lean, has been certified correct by the Lean and Mathlib communities; its extension to the Generalized Riemann Hypothesis for Dirichlet L-functions passed a second, independently written checker.",
+  "n_papers": 79,
   "pdf": "complexity-chronicles-2026-W47.pdf",
   "rfc822": "Mon, 23 Nov 2026 08:00:00 +0000"
  },

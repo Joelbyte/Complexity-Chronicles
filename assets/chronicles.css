@@ -132,7 +132,8 @@ a.ref, .ref { font-family: var(--mono); font-size: .78em; color: var(--greendark
 .numbers .boxtitle { color: #fff; }
 .numbers .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px 14px; padding: 4px 14px 14px; }
 .stat { text-align: center; }
-.stat .value { font-family: var(--head); font-weight: 900; font-size: 30px; color: var(--amber); line-height: 1.1; overflow-wrap: anywhere; }
+.stat .value { font-family: var(--head); font-weight: 900; font-size: 30px; color: var(--amber); line-height: 1.1; white-space: nowrap; }
+.stat { overflow: visible; min-width: 0; }
 .stat .value .katex { font-size: .95em; color: var(--amber); }
 .stat .label { font-family: var(--cond); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: #D8DBCF; margin-top: 4px; line-height: 1.25; }
 .forecast { border: 1px solid var(--orange); margin-bottom: 12px; background: #FBF4D8; }
