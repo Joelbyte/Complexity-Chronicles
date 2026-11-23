@@ -1,5 +1,17 @@
 [
  {
+  "week": "2026-W47",
+  "issue_number": 47,
+  "date_line": "Monday 23 November 2026",
+  "week_range": "16–22 November 2026",
+  "date": "2026-11-23",
+  "headline": "NL equals UL",
+  "standfirst": "Hoza gives an explicit log-space generator of min-isolating vertex weights for layered digraphs; combined with Reinhardt and Allender (SICOMP 2000), this proves NL = UL unconditionally.",
+  "n_papers": 77,
+  "pdf": "complexity-chronicles-2026-W47.pdf",
+  "rfc822": "Mon, 23 Nov 2026 08:00:00 +0000"
+ },
+ {
   "week": "2026-W46",
   "issue_number": 46,
   "date_line": "Monday 16 November 2026",

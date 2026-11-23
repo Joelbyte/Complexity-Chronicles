@@ -7,6 +7,13 @@
 <description>All the news that's fit to reduce</description>
 <language>en</language>
 <item>
+<title>No. 47: NL equals UL</title>
+<link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W47/</link>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W47/</guid>
+<pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+<description>Hoza gives an explicit log-space generator of min-isolating vertex weights for layered digraphs; combined with Reinhardt and Allender (SICOMP 2000), this proves NL = UL unconditionally.</description>
+</item>
+<item>
 <title>No. 46: First hard instances for AC0[2]-Frege at every depth</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W46/</link>
 <guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W46/</guid>
