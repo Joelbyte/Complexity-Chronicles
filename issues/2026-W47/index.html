@@ -14,15 +14,31 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"></script>
 <script>
-// Numbers of the week: a long formula is scaled down to fit its cell, as in the PDF.
+// Numbers of the week: a value wider than its cell is set in a smaller font until it
+// fits (KaTeX sizes everything in em, so the layout shrinks with it, and a cell can
+// never overflow). Runs after KaTeX, again when fonts arrive, and whenever a cell resizes.
 function fitStatValues() {
   document.querySelectorAll(".stat .value").forEach(function (el) {
-    el.style.transform = ""; el.style.width = "";
-    var box = el.parentElement.clientWidth, need = el.scrollWidth;
-    if (need > box && box > 0) { el.style.transformOrigin = "center top"; el.style.transform = "scale(" + (box / need) + ")"; }
+    var cell = el.parentElement, grid = cell.parentElement;
+    el.style.fontSize = ""; cell.style.gridColumn = "";
+    var fits = function () { return el.scrollWidth <= cell.clientWidth + 1; };
+    if (fits()) return;
+    // first give a long formula two cells of the grid, if the grid has them
+    var cols = getComputedStyle(grid).gridTemplateColumns.split(" ").length;
+    if (cols >= 2) { cell.style.gridColumn = "span 2"; if (fits()) return; }
+    // then set it smaller until it fits (KaTeX sizes in em, so the layout follows)
+    var base = parseFloat(getComputedStyle(el).fontSize), size = base, guard = 0;
+    while (!fits() && size > base * 0.3 && guard++ < 24) { size *= 0.92; el.style.fontSize = size + "px"; }
   });
 }
 window.addEventListener("resize", fitStatValues);
+window.addEventListener("load", function () { fitStatValues(); setTimeout(fitStatValues, 800); });
+if (window.ResizeObserver) {
+  document.addEventListener("DOMContentLoaded", function () {
+    var ro = new ResizeObserver(function () { fitStatValues(); });
+    document.querySelectorAll(".numbers .grid, .repostats").forEach(function (g) { ro.observe(g); });
+  });
+}
 document.addEventListener("DOMContentLoaded", function () {
   if (window.renderMathInElement) {
     renderMathInElement(document.body, {
