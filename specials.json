@@ -1,0 +1,15 @@
+[
+ {
+  "slug": "special-2026-11-25-openai-math",
+  "issue_number": 1,
+  "date_line": "Wednesday 25 November 2026",
+  "window_line": "23–24 November 2026",
+  "source_name": "OpenAI math",
+  "date": "2026-11-25",
+  "headline": "One drop claims VP≠VNP and Smale's ninth",
+  "standfirst": "Ten AI-written, unrefereed manuscripts claim that VP and VNP differ over every field, give superpolynomial circuit lower bounds for the permanent, settle the Erdős–Rado sunflower conjecture, and give a strongly polynomial algorithm for linear programming, each with a Lean formalisation of narrower scope.",
+  "n_papers": 10,
+  "pdf": "special-2026-11-25-openai-math.pdf",
+  "rfc822": "Wed, 25 Nov 2026 08:00:00 +0000"
+ }
+]

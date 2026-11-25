@@ -7,38 +7,39 @@
 <description>All the news that's fit to reduce</description>
 <language>en</language>
 <item>
+<title>Special No. 1: One drop claims VP≠VNP and Smale's ninth</title>
+<link>https://joelbyte.github.io/Complexity-Chronicles/specials/special-2026-11-25-openai-math/</link>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/specials/special-2026-11-25-openai-math/</guid><pubDate>Wed, 25 Nov 2026 08:00:00 +0000</pubDate>
+<description>Ten AI-written, unrefereed manuscripts claim that VP and VNP differ over every field, give superpolynomial circuit lower bounds for the permanent, settle the Erdős–Rado sunflower conjecture, and give a strongly polynomial algorithm for linear programming, each with a Lean formalisation of narrower scope.</description>
+</item>
+<item>
 <title>No. 47: Riemann hypothesis proof passes Lean checks</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W47/</link>
-<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W47/</guid>
-<pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W47/</guid><pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
 <description>Status confirmed: a proof of the Riemann hypothesis by Alpöge of Anthropic, working with Claude and released only as about 17 million lines of Lean, has been certified correct by the Lean and Mathlib communities; its extension to the Generalized Riemann Hypothesis for Dirichlet L-functions passed a second, independently written checker.</description>
 </item>
 <item>
 <title>No. 46: First hard instances for AC0[2]-Frege at every depth</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W46/</link>
-<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W46/</guid>
-<pubDate>Mon, 16 Nov 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W46/</guid><pubDate>Mon, 16 Nov 2026 08:00:00 +0000</pubDate>
 <description>For every fixed <span class="math">\(d \ge 2\)</span>, explicit depth-<span class="math">\(d\)</span> formulas need superpolynomial-size semantic depth-<span class="math">\(d\)</span> <span class="math">\(AC^0[2]\)</span>-Frege refutations. Semantic depth-3 and depth-4 polynomial calculus over <span class="math">\(\mathbb{F}_2\)</span> also receive exponential and superpolynomial lower bounds, which settles the Res(log) question for the weak pigeonhole principle.</description>
 </item>
 <item>
 <title>No. 45: The hyperclique conjecture falls</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W45/</link>
-<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W45/</guid>
-<pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W45/</guid><pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
 <description>For every fixed <span class="math">\(k\)</span> there is an <span class="math">\(\varepsilon_k &gt; 0\)</span> such that <span class="math">\(k\)</span>-hypercliques in an <span class="math">\(n\)</span>-vertex <span class="math">\((k-1)\)</span>-uniform hypergraph can be counted in <span class="math">\(O(n^{k-\varepsilon_k})\)</span> time, unconditionally; as corollaries, Max-<span class="math">\(k\)</span>SAT runs in <span class="math">\(2^{(1-\varepsilon)n}\cdot\mathrm{poly}(m,n)\)</span> time and length-<span class="math">\(k\)</span> arithmetic progressions are detected in <span class="math">\(n^{2-\varepsilon}\)</span> time, with <span class="math">\(\varepsilon\)</span> depending on <span class="math">\(k\)</span>.</description>
 </item>
 <item>
 <title>No. 44: ETH falls. Brute force keeps its job</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W44/</link>
-<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W44/</guid>
-<pubDate>Mon, 02 Nov 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W44/</guid><pubDate>Mon, 02 Nov 2026 08:00:00 +0000</pubDate>
 <description>Two analyses of the claimed October 2026 refutations of ETH find that the subexponential #3-SAT bounds certify no speed-up over brute force for any bounded-density input that could ever be written down, cut one algorithm's crossover point to about <span class="math">\(2^{420}\)</span> clauses at clause density one, and observe that the Sparse Max-3-SAT Hypothesis falls too; a third paper, an AI-assisted exposition, explains how the counting procedure works.</description>
 </item>
 <item>
 <title>No. 43: 4n! Gate Elimination Smashes Through</title>
 <link>https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W43/</link>
-<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W43/</guid>
-<pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://joelbyte.github.io/Complexity-Chronicles/issues/2026-W43/</guid><pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
 <description>Mishra and Santhanam prove that every Boolean circuit over the full binary basis <span class="math">\(B_2\)</span> computing a certain explicit function in <span class="math">\(\mathrm{P}\)</span> needs at least <span class="math">\(4n-O(\log n)\)</span> gates, up from the <span class="math">\(3.5n-o(n)\)</span> in the paper's own earlier version.</description>
 </item>
 </channel>
